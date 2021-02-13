@@ -1,0 +1,75 @@
+body{ 
+  background-color: plum;
+  font-family: Arial, sans-serif;
+}
+
+.bannerImg{
+  width: 50%;
+  left: 40%;
+  display: inline-block;
+  position: absolute;
+  
+}
+
+.bannerText{
+  width: 50%;
+  left: 10%;
+  display: inline-block;
+  position: absolute;
+}
+
+button{
+  background: purple;
+  box-shadow: 2px 4px 8px 2px rgb(74 100 164 / 40%);
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+
+}
+  
+.buyButton{
+  display: block;
+  position: relative;
+  width: 240px;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 24px;
+  margin-top: 12%;
+}
+
+.addButton{
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 52%;
+  width: 12%;
+  height: 8%;
+}
+
+.left{
+  background-color: aliceblue;
+  width: 60%;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+
+pre{
+  font-size: large;
+}
+
+ul{
+  list-style: none;
+  display: block;
+  padding-bottom: 3%;
+}
+
+li {
+  display: inline;
+  padding: 7%;
+  font-size: large;
+  font-weight: bolder;
+}
