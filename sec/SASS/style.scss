@@ -1,0 +1,61 @@
+
+@import 'vars';
+@import 'utilities';
+@import 'buttons';
+
+body{
+  background-color: $body-color;
+  font-family: $body-font;
+  line-height: 1.6;
+}
+
+a{
+  // color: $links-color;
+  color: text-color($primary-color);
+  text-decoration: none;
+ // &:hover{color: yellow;}
+}
+
+.showcase{
+  // background-color: $primary-color;
+  // color: text-color($primary-color);
+  @include background-color($primary-color);
+  height: 500px;
+  padding: 15px 25px;
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    ul{
+      display: flex;
+      list-style-type: none;
+      
+      li{
+        padding: 15px;
+        font-weight: bold;
+      }
+    }
+    a{
+      &:hover{
+        color: $primary-color;
+        border-radius: 5px;
+        padding: 3px;
+        background-color: $link-color-hover;
+      }
+    }
+  }
+  
+  &-content{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 50%;
+  }
+  
+}
+}
+

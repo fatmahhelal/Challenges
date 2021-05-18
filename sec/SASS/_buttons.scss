@@ -1,0 +1,22 @@
+%btn{
+  display: inline-block;
+  border-radius: 5px;
+  padding: 7px 10px;
+  margin: 5px;
+  background-color: yellow;
+  color: black;
+}
+
+
+.btn-primary{
+  @extend %btn;
+  // background-color:lighten($primary-color, 10%);
+@include background-color(lighten($primary-color, 10%))
+}
+
+.btn-secondary{
+  @extend %btn;
+  @include background-color($secondary-color)
+  
+  // background-color: yellow;
+}
