@@ -9,7 +9,11 @@ Set of challenges that I did in order to improve my programming skills.
 <img src="img/sec.png">
 
 # :sunglasses: Third using ReactJS and Bootstrap:
-<img src="img/Shooping_Home.png">
+## Home Page
 <img src="img/Shooping-Product.png">
+
+## About us Page
 <img src="img/Shooping-About (1).png">
-<img src="img/Shooping-Contant.png>
+
+## Contant Us Page
+<img src="img/Shooping-Contant.png">
